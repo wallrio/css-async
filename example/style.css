@@ -1,0 +1,10 @@
+*{
+	font-family: arial;
+}
+
+#statuscss{
+	color: #000;
+}#statuscss::before{
+	content: "CSS Style loaded Asynchronously with success";
+	color: green;
+}
