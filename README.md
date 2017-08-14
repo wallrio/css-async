@@ -1,5 +1,5 @@
 # CSS Async
-load style css Asynchronously
+load css Asynchronously
 
 ## Usage
 
