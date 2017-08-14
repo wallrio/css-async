@@ -3,7 +3,7 @@ load style css Asynchronously
 
 ## Usage
 
-	include the script on your head document
+include the script on your head document
 
 	<script  src="css-async.js" async></script>
 
@@ -12,7 +12,7 @@ load style css Asynchronously
 	<script  src="css-async.js" data-attributes='"container":"head","use-order":true,"use-style-tag":false' async></script>
 
 
-	set your style tags with rel="stylesheet-async"
+set your style tags with rel="stylesheet-async"
 
 ###	Example:
 
@@ -21,17 +21,17 @@ load style css Asynchronously
 
 ## Async modes compativle
 
-	async and defer
+async and defer
 
 
-	For use defer set like above:
+For use defer set like above:
 
 	<script  src="css-async.js" defer></script>
 
 
 ## Use Attributes
 	
-	Insert a tag named 'data-attributes', the parameters is like JSON
+Insert a tag named 'data-attributes', the parameters is like JSON
 
 ### Example:
 
