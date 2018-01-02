@@ -88,6 +88,9 @@ var addEvent  = function(objs,event,callback,mode,par1,par2,par3){
 
     var defer = function(){
 
+    	if(navigator.userAgent.indexOf("Speed Insights") != -1)
+    		return false;
+
 		var script = document.querySelectorAll('[type="text/javascript-defer"]');
 
 		for (var i = 0; i < script.length; i++) {
