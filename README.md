@@ -44,3 +44,16 @@ Insert a tag named 'data-attributes', the parameters is like JSON
 	use-style-tag	=	define if will be used the tag <style>			example: true|false
 	rel-original	=	use the tags style with rel 'stylesheet'		example: true|false
 	style-disable	=	disable the tags styles on document				example: true|false
+
+
+
+
+## Javascript
+
+### defer on script inline
+
+Insert type text/javascript-defer on script tag for load on mode defer
+
+	<script type="text/javascript-defer">
+		// javascript code
+	</script>

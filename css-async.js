@@ -1,5 +1,5 @@
 /**
- * cssAsync 1.0
+ * cssAsync 1.2
  * load style css Asynchronously
  *
  * Wallace Rio <wallrio@gmail.com>
