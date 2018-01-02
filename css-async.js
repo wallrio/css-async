@@ -308,7 +308,9 @@ var addEvent  = function(objs,event,callback,mode,par1,par2,par3){
     
     
  	addEvent(window,'load',function(){
- 		defer();
+ 		setTimeout(function(){
+ 			defer();
+ 		},1000);	
  	});
 
 })();
