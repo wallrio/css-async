@@ -306,12 +306,25 @@ var addEvent  = function(objs,event,callback,mode,par1,par2,par3){
  	console.group();
  	execute(attributes);
     
+
     
- 	addEvent(window,'load',function(){
- 		setTimeout(function(){
- 			defer();
- 		},1000);	
- 	});
+
+    document.onreadystatechange = function(){
+    	interval = setInterval(function(){
+ 			if(document.readyState === 'complete'){
+ 			  defer();
+ 			  clearInterval(interval);
+	          
+	       }
+ 		},400);
+       
+
+    }
+
+
+ 	
+
+
 
 })();
 
