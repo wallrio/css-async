@@ -307,7 +307,7 @@ var addEvent  = function(objs,event,callback,mode,par1,par2,par3){
  	execute(attributes);
     
     
- 	addEvent(document,'mousemove',function(){ 		
+ 	addEvent(window,'load',function(){ 		
  			defer(); 		
  	});
 
